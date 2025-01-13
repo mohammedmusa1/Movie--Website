@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a href="#">C I N E S C O P E</a>
+            <br><a href="2">KIDS SECTION:-</a></div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="series.html">Sries</a></li>
+            <li><a href="community.html">Community</a></li>
+            <button ><a href="http://localhost/signin/sign.php">Sign In</a></button>
+         </ul>
+    </nav>
+    <br>
+    <br>
+    <div class="container">
+        <input type="search"  id="search" placeholder="search" >
+        <a href="#">
+            <i class="fa fa-search icom" id="find" onclick="aj()">
+            </i>
+        </a>
+        <!-- <input type="text" id="serach"> -->
+        <!-- <button type="find" id="find" onclick="aj()">click me</button> -->
+    </div>
+    <br>
+    <br>
+    <div class="films">
+    <div class="p"><a href="web1.html"><img src="https://c4.wallpaperflare.com/wallpaper/675/801/188/mowgli-jungle-book-bagheera-wallpaper-preview.jpg" width="150px" height="200px">
+        <p>MOWGLI</p></a></div>  
+    <div class="p"><a href="wb2.html"><img src="https://stat4.bollywoodhungama.in/wp-content/uploads/2016/03/51206136.jpg" width="150px" height="200px"><p>TARE ZAMEEN PAR</p></a></div>
+    <div class="p"><a href="web4.html"><img src="https://c4.wallpaperflare.com/wallpaper/765/288/964/moana-vaiana-disney-princesses-wallpaper-preview.jpg" width="150px"height="200"><p>MOANA</p></a></div> 
+    <div class="p"><a href="web3.html"><img src="https://images7.alphacoders.com/126/thumbbig-1261886.webp" width="150px" height="200px"><p>LUCK</p></a></div>
+    <div class="p"><a href="web5.html"><img src="https://www.tvguide.com/a/img/catalog/provider/1/2/1-12676889815.jpg" width="150px"height="200px"><p>THE MAGECIAN ELEPHANT</p></a></div>
+    <div class="p"><a href="web6.html"><img src="https://www.adgully.com/img/800/202108/iloh_poster_2b.jpg" width="150px"height="200px"> THE LEGEND HANUMAN</a></div>
+    <div class="p"><a href="web7.html"><img src="https://wallpaperaccess.com/full/2491979.jpg" width="150px"height="200px"><p>BAL GANESH</p></a></div>
+    <div class="p"><a href="web8.html"><img src="https://c4.wallpaperflare.com/wallpaper/595/534/446/movie-frozen-2-anna-frozen-elsa-frozen-kristoff-frozen-hd-wallpaper-preview.jpg" width="150px"height="200px"><p>FROZEN 2</p></a></div>
+    <div class="p"><a href="web9.html"><img src="https://wallpaperaccess.com/full/6501506.jpg" width="150px" height="200px">CHICKEN RUN</a></div>
+    <div class="p"><a href="web10.html"><img src="https://e0.pxfuel.com/wallpapers/365/428/desktop-wallpaper-krrish-3-thumbnail.jpg" width="150px" height="200px"><p>KRISH 3</p></a></div>
+    
+    
+</body> 
+<script type="text/javascript">
+    var search=document.getElementsByClassName('serach').innerHTML;
+    var find=document.getElementById('find').innerHTML;
+    
+    function aj(){
+        if (search=="MOWGLI") {
+            var find =<a href="http://127.0.0.1:5500/pro.html"><img src="https://c4.wallpaperflare.com/wallpaper/675/801/188/mowgli-jungle-book-bagheera-wallpaper-preview.jpg" width="150px" height="200px"></img>
+        <p>MOWGLI</p></a>
+            
+
+            
+        }
+    }
+    document.getElementById('find').innerHTML=find;
+</script>
+</html>
